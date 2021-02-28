@@ -1,4 +1,11 @@
 
+@media (max-width:10000px) {
+    .large {
+        display: none;
+    }
+}
+
+
 @media (max-width:1400px) {
 	.container {
 		width: 100%;
@@ -8,6 +15,12 @@
 	.video-right h2 {
 		font-size: 40px;
 	}
+    .large {
+        display: none;
+    }
+    .schedulebr {
+        display: none;
+    }
 }
 @media (max-width:1200px) {
 	.banner-section {
@@ -20,17 +33,82 @@
 		font-size: 17px;
 		line-height: 1.6;
 	}
-	.service-item-icon {
-		width: 50px;
-		height: 110px;
-	}
-	.service-item-content h4 {
-		font-size: 24px;
-		margin-bottom: 23px;
-	}
+    .service-item-icon {
+        width: 55px;
+        height: 110px;
+    }
+    .service-item-content h4 {
+        font-size: 20px;
+        margin-bottom: 20px;
+        font-weight: 500;
+    }
 	.service-item-content p {
 		font-size: 17px;
 	}
+
+
+    .service-box {
+        padding: 25px;
+    }
+    .service-item-icon {
+        width: 60px;
+        height: 110px;
+    }
+
+    .blog-item-img img {
+        width: 280px;
+        float: left;
+        margin-right: 25px;
+        border-radius: 10px 0 0 10px;
+    }
+    .blog-item-content h4 {
+        padding-top: 30px;
+    }
+    .blog-item-content p {
+        font-size: 18px;
+        line-height: 1.3;
+    }
+    .testimonial-member {
+        top: 35px;
+        left: 45px;
+    }
+    .pricing-item-content {
+        padding: 20px;
+    }
+    .pricing-item-info ul {
+        padding: 11px;
+    }
+    .service-box {
+        padding: 25px;
+    }
+    p br {
+        display: inherit;
+    }
+    .pricing-item-content h3 {
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    .pricing-item-content h1 {
+        padding: 25px 0;
+        font-size: 20px;
+    }
+
+    .pricing-item-content h1 span {
+        font-size: 45px;
+    }
+    .pricing-item-content h4 {
+        font-size: 18px;
+    }
+    .pricing-item-content p {
+        font-size: 16px;        
+    }
+}
+
+@media (max-width:1012px) {
+    p br {
+        display: none;
+    }
 }
 
 
@@ -126,6 +204,9 @@
 		font-size: 22px;
 		margin-bottom: 20px;
 	}
+    .pricing-item-content p br {
+        display: inherit;
+    } 
 }
 
 @media (max-width:768px) {
@@ -213,9 +294,9 @@
 		width: 100%;
 		margin-bottom: 60px;
 	}
-	.testimonial-member {
-		top: 15px;
-	}
+    .testimonial-member {
+        left: -172px;
+    }
 	.testimonial-content h1 {
 		font-size: 27px;
 	}
