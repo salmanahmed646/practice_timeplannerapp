@@ -409,5 +409,73 @@
 	}
 	.contact-section {
 	padding: 40px 0;
+	}
 }
+
+@media (max-width:576px) {
+	.header-logo a img {
+		width: 35px;
+	}
+	.header-logo a span {
+		font-size: 20px;
+	}
+	.primary-menu ul li a {
+		padding: 0 6px;
+		font-size: 15px;
+	}
+}
+
+@media (max-width:492px) {
+	.header-section {
+		position: relative;
+	}
+	.header-logo {
+		width: 48%;
+		text-align: left;
+	}
+	.header-menu {
+		width: 100%;
+		text-align: center;
+		margin-bottom: -30px;
+	}
+	.header-button {
+		width: 48%;
+		text-align: right;
+		position: relative;
+		top: -51px;
+		left: 199px;
+	}
+	.primary-menu ul li ul {
+		top: 175%;
+		width: 192px;
+		text-align: left;
+		padding-left: 5px;
+	}
+	.banner-content h3 {
+		font-size: 20px;
+		padding-top: 40px;
+	}
+	.banner-content h1 {
+		font-size: 35px;
+		padding: 15px;
+	}
+	.banner-content {
+		margin-top: 0;
+	}
+	.banner-section {
+		padding: 30px 0;
+	}
+	.banner-content h3 {
+		padding-top: 0;
+	}
+	.service-section {
+		padding: 40px 0;
+	}
+	.service-box {
+		margin-bottom: 20px;
+		border-bottom: 1px solid #ddd;
+	}
+	.pricing-item-content p br {
+		display: none;
+	}
 }
