@@ -1,0 +1,332 @@
+
+@media (max-width:1400px) {
+	.container {
+		width: 100%;
+		max-width: 100%;
+		margin: auto;
+	}
+	.video-right h2 {
+		font-size: 40px;
+	}
+}
+@media (max-width:1200px) {
+	.banner-section {
+		padding: 170px 0;
+	}
+	.video-right h2 {
+		font-size: 36px;
+	}
+	.video-right p {
+		font-size: 17px;
+		line-height: 1.6;
+	}
+	.service-item-icon {
+		width: 50px;
+		height: 110px;
+	}
+	.service-item-content h4 {
+		font-size: 24px;
+		margin-bottom: 23px;
+	}
+	.service-item-content p {
+		font-size: 17px;
+	}
+}
+
+
+@media (max-width:992px) {
+	.header-logo a img {
+		width: 40px;
+	}
+	.header-logo a span {
+		font-size: 19px;
+	}
+	.primary-menu ul li a {
+		padding: 0 7px;
+	}
+	.header-btn {
+		padding: 6px 18px;
+		font-size: 15px;
+	}
+	.banner-content h3 {
+		font-size: 22px;
+	}
+	.banner-content h1 {
+		font-size: 45px;
+		padding: 20px;
+	}
+	.banner-button .header-btn {
+		padding: 12px 24px;
+		font-size: 17px;
+	}
+	.video-right h2 {
+		font-size: 25px;
+	}
+	.video-right p {
+		font-size: 16px;
+	}
+	.service-content h1 {
+		font-size: 40px;
+	}
+	.service-box {
+		width: 48%;
+	}
+	.price-content h2 {
+		font-size: 45px;
+	}
+	.price-content p {
+		font-size: 20px;
+	}
+	.pricing-item-content {
+		padding: 20px;
+	}
+	.pricing-item-info ul {
+		padding: 10px;
+	}
+	.pricing-item-info ul li {
+		padding: 12px;
+	}
+	.ourteam-content h2 {
+		margin-bottom: 45px;
+	}
+	.blog-item {
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	.testimonial-info {
+		padding: 35px 25px;
+	}
+	.testimonial-info p {
+		font-size: 17px;
+		line-height: 1.5;
+	}
+	.contact-left-map {
+		width: 100%;
+		padding: 20px;
+		box-sizing: border-box;
+	}
+	.contact-right-form {
+		width: 100%;
+		margin-top: 25px;
+		padding: 20px;
+		box-sizing: border-box;
+	}
+	.testimonial-member {
+		top: 20px;
+		left: 15px;
+	}
+	.service-box {
+		padding: 35px;
+	}
+	.service-item-icon {
+		width: 55px;
+		height: 110px;
+	}
+	.service-item-content h4 {
+		font-size: 22px;
+		margin-bottom: 20px;
+	}
+}
+
+@media (max-width:768px) {
+    .header-logo a img {
+        width: 40px;
+        float: none;
+    }
+    .header-logo a span {
+        font-size: 25px;
+        position: relative;
+        top: -15px;
+    }
+	.header-logo {
+		width: 100%;
+		text-align: center;
+	}
+	.header-menu {
+		width: 75%;
+	}
+	.header-button {
+		width: 20%;
+		text-align: right;
+	}
+	.primary-menu ul li ul {
+		top: 175%;
+	}
+
+	.banner-section {
+		padding: 80px 0;
+	}
+	.banner-content {
+		margin-top: 80px;
+	}
+	.banner-content h3 {
+		font-size: 20px;
+	}
+	.banner-content h1 {
+		font-size: 40px;
+		padding: 15px;
+	}
+	.banner-button .header-btn {
+		padding: 10px 20px;
+		font-size: 16px;
+	}
+	.video-section {
+		padding: 50px 0;
+	}
+	.video-left {
+		width: 100%;
+		padding: 10px;
+		box-sizing: border-box;
+	}
+	.video-right {
+		width: 100%;
+		padding: 10px;
+		box-sizing: border-box;
+	}
+	.video-right h2 {
+		font-size: 35px;
+	}
+	.service-content h1 {
+		font-size: 30px;
+	}
+	.service-content p {
+		font-size: 20px;
+	}
+	.service-box {
+		width: 100%;
+	}
+	.service-item-icon {
+		width: 60px;
+	}
+	.service-item-content p {
+		font-size: 18px;
+	}
+	.pricing-items {
+		width: 80%;
+		margin-left: 60px;
+	}
+	.team-member {
+		width: 48%;
+		margin-bottom: 2%;
+	}
+	.testimonial-item {
+		width: 100%;
+		margin-bottom: 60px;
+	}
+	.testimonial-member {
+		top: 15px;
+	}
+	.testimonial-content h1 {
+		font-size: 27px;
+	}
+	.testimonial-content h3 {
+		font-size: 23px;
+	}
+	.ourteam-content h2 {
+		margin-bottom: 40px;
+		font-size: 28px;
+	}
+	.member-info {
+		padding: 20px 15px;
+	}
+	.member-info h4 {
+		font-size: 20px;
+		margin-bottom: 8px;
+	}
+	.member-info p {
+		font-size: 17px;
+	}
+	.newsletter-content h3 {
+		margin-bottom: 15px;
+	}
+	.newsletter-content h2 {
+		margin-bottom: 35px;
+	}
+	.subscribe-email {
+		width: 100%;
+		text-align: center;
+	}
+	.subscribe-email form input {
+		width: 80%;
+		margin-bottom: 15px;
+	}
+	.subscribe-button {
+		width: 100%;
+		text-align: center;
+	}
+	.contact-row {
+		padding: 20px 0;
+	}
+}
+
+@media (max-width:576px) {
+	.header-button {
+		width: 18%;
+	}
+	.header-btn {
+		padding: 7px 9px;
+		font-size: 14px;
+	}
+	.service-content h1 {
+		font-size: 25px;
+	}
+	.service-item-content h4 {
+		font-size: 22px;
+		margin-bottom: 20px;
+	}
+	.price-content h2 {
+		font-size: 30px;
+		font-weight: 500;
+		margin-bottom: 20px;
+	}
+	.price-content p {
+		font-size: 18px;
+	}
+	.ourteam-content h2 {
+		margin-bottom: 35px;
+		font-size: 20px;
+		font-weight: 500;
+	}
+	.ourteam-section {
+		padding: 40px 0;
+	}
+	.blog-section {
+		padding: 40px 0;
+	}
+	.newsletter-content h3 {
+		font-size: 20px;
+	}
+	.newsletter-content h2 {
+		margin-bottom: 30px;
+		font-size: 25px;
+		font-weight: 600;
+	}
+	.blog-section-content-left h2 {
+		font-size: 25px;
+		font-weight: 600;
+	}
+	.blog-item-img img {
+		width: 250px;
+		margin-right: 20px;
+	}
+	.blog-item-content h4 {
+		padding-top: 27px;
+	}
+	.blog-item-content p {
+		font-size: 17px;
+		line-height: 1.4;
+	}
+	.testimonial-section {
+		padding: 40px 0;
+	}
+	.testimonial-content h1 {
+		font-size: 20px;
+		font-weight: 600;
+	}
+	.testimonial-member {
+		left: -28px;
+	}
+	.contact-section {
+	padding: 40px 0;
+}
+}
