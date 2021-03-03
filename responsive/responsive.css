@@ -173,6 +173,15 @@
 	}
 }
 @media (max-width: 768px) {
+	.banner-content h3 {
+		margin-top: 80px;
+	}
+	.banner-content h1 {
+		font-size: 45px;
+	}
+	.banner-button .header-btn {
+		padding: 12px 24px;
+	}
 	.header-section {
 		position: absolute;
 	}
@@ -204,6 +213,9 @@
 	}
 	.pricing-items {
 		width: 100%;
+	}
+	.pricing-item-content br {
+		display: none;
 	}
 	.ourteam-content h2 {
 		font-size: 25px;
@@ -277,60 +289,65 @@
 }
 
 @media (max-width: 576px) {
+	.header-button {
+		display: none;
+	}
+	.header-menu {
+		width: 100%;
+		text-align: center;
+	}
 	.primary-menu ul li a {
 		padding: 0 5px;
-		font-size: 13px;
-	}
-	.header-button {
-		width: 32%;
-	}
-	.banner-content h1 {
-		font-size: 41px;
-		color: #fff;
-		padding: 20px;
-	}
-	.banner-button .header-btn {
-		margin-right: 15px;
 		font-size: 15px;
 	}
-	.video-right h2 {
-		font-size: 27px;
+	.primary-menu ul li ul {
+		top: 133%;
+		width: 166px;
+	}
+	.banner-button .header-btn {
+		padding: 10px 15px;
+	}
+	.banner-button .header-btn {
+		padding: 10px 15px;
+	}
+	.banner-content h1 {
+		font-size: 30px;
+	}
+	.banner-content h3 {
+		margin-top: 80px;
+	}
+	.banner-section {
+		padding: 80px 0;
 	}
 	.service-content h1 {
-		font-size: 22px;
-	}
-	.service-content p {
-		font-size: 18px;
+		font-size: 20px;
 	}
 	.price-content h2 {
-		font-size: 28px;
-	}
+		font-size: 24px;
+	} 
 	.price-content p {
-		font-size: 17px;
+		font-size: 15px;
 	}
+	.ourteam-content h2 {
+		font-size: 18px;
+	}
+	.newsletter-content h3 {
+		font-size: 18px;
+		margin-bottom: 13px;
+	} 
 	.newsletter-content h2 {
-		font-size: 25px;
+		font-size: 20px;
 	}
-	.blog-section-content-left {
-		width: 100%;
+	.testimonial-content h1 {
+		font-size: 20px;
+		font-weight: 500;
 	}
-	.blog-section-content-right {
-		width: 100%;
-		margin-top: 20px;
-	}
-	.blog-item-img img {
-		width: 100%;
-		float: inherit;
-		border-radius: 10px 10px 0 0;
-	}
-	.blog-item-content h4 {
-		padding: 15px 15px;
-		margin-bottom: 0;
-	}
-	.blog-item-content p {
-		padding: 0 15px;
-	}
-	.blog-item-content {
-		padding-bottom: 20px;
+	.testimonial-content h3 {
+		font-size: 19px;
+		margin-bottom: 15px;
 	}
 }
+
+
+
+
