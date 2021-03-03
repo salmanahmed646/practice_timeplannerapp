@@ -363,3 +363,9 @@
 		padding: 0 15px;
 	}
 }
+@media (max-width: 327px) {
+	.banner-button .header-btn {
+		padding: 5px 8px;
+		font-size: 14px;
+	}
+}
